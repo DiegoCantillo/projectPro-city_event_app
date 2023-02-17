@@ -8,10 +8,10 @@ export default function Home() {
         Home
         <ul>
           <li>
-            <Link href="/profiles/profile">ve a tu perfil</Link>
+            <Link href="/profiles">ve a tu perfil</Link>
           </li>
           <li>
-            <Link href="/profiles/votes/votes">ve a votos</Link>
+            <Link href="/votes">ve a votos</Link>
           </li>
           <li>
             <Link href="/createPost">ve a tus posts</Link>
@@ -22,6 +22,9 @@ export default function Home() {
 
           <li>
             <Link href="/startSesion">haz login</Link>
+          </li>
+          <li>
+            <Link href="/user_events/index">ve a eventos</Link>
           </li>
         </ul>
       </Layout>
