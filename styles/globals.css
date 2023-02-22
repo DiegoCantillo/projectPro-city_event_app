@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-5xl font-black leading-10;
+  }
+}
+@layer base {
+  h4 {
+    @apply text-base not-italic font-medium leading-5;
+  }
+}
+
+@layer base {
+  h2 {
+    @apply text-lg font-black leading-6;
+  }
+}
+
+@layer base {
+  h5 {
+    @apply text-base font-normal leading-5;
+  }
+}
+
+@layer base {
+  h3 {
+    @apply text-base font-black leading-6;
+  }
+}
+
+@layer base {
+  .text_1 {
+    @apply text-sm font-normal leading-5;
+  }
+}
+
+@layer base {
+  .text_2 {
+    @apply text-sm font-medium leading-4;
+  }
+}
